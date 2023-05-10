@@ -18,6 +18,11 @@ const Layout = ({ children }) => {
                             {children}
                         </Content>
                     </Col>
+                    <Col md="4">
+                        <Content>
+                            {children}
+                        </Content>
+                    </Col>
                 </Row>
             </Container>
             </main>

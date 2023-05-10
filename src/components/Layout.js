@@ -15,12 +15,12 @@ const Layout = ({ children }) => {
                 <Row>
                     <Col md="8">
                         <Content>
-                            {children}
+                            {children.text_1}
                         </Content>
                     </Col>
                     <Col md="4">
                         <Content>
-                            {children}
+                            {children.text_2}
                         </Content>
                     </Col>
                 </Row>
